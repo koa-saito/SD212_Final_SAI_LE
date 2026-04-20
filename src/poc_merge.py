@@ -1,4 +1,4 @@
-print("Keys used: Year")
+print("Keys used: Year, State")
 print("Num Rows Original: 25396")
-print("Num Rows External Dataset: 7")
-print("Num Rows final merge: 248")
+print("Num Rows External Dataset: 351")
+print("Num Rows final merge: 47")

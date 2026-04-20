@@ -1,0 +1,53 @@
+    Year           State  federal_action_obligation Political Majority  Lean
+0   2020         arizona                 3463572.00                  d     0
+1   2020      california                   16000.00                  d    29
+2   2020         florida                 7156652.00                  d    -3
+3   2020         indiana                   90000.00                  d   -16
+4   2020        maryland                    1000.00                  d    33
+5   2020   massachusetts                  920000.00                  d    33
+6   2020      new jersey                    2000.00                  d    16
+7   2020        new york                   10000.00                  d    23
+8   2020    pennsylvania                    5000.00                  d     1
+9   2020           texas                 1595000.00                  d    -6
+10  2020        virginia                 2692580.00                  d    10
+11  2020      washington                    1000.00                  d    19
+12  2020       wisconsin                    1000.00                  d     1
+13  2024          alaska                 1176185.00                  r   -18
+14  2024         arizona                 1385629.35                  r    -5
+15  2024      california                22618094.72                  r    20
+16  2024        colorado                 4013578.44                  r     8
+17  2024     connecticut                 1142000.00                  r    15
+18  2024         florida                 2485036.30                  r   -13
+19  2024          hawaii                  145000.00                  r    22
+20  2024           idaho                   45892.00                  r   -35
+21  2024        illinois                 3431309.00                  r    12
+22  2024         indiana                  672570.00                  r   -20
+23  2024          kansas                  369913.00                  r   -20
+24  2024        kentucky                  778556.00                  r   -30
+25  2024       louisiana                   95430.00                  r   -25
+26  2024           maine                 1999884.00                  r     5
+27  2024        maryland                 6322540.00                  r    28
+28  2024   massachusetts                 8090455.00                  r    25
+29  2024        michigan                 6527016.00                  r    -2
+30  2024       minnesota                  167500.00                  r     2
+31  2024         montana                 5133589.86                  r   -20
+32  2024        nebraska                   12500.00                  r   -25
+33  2024          nevada                 4354332.45                  r    -5
+34  2024      new jersey                   30000.00                  r    10
+35  2024      new mexico                  606997.00                  r     5
+36  2024        new york                 3299854.33                  r    15
+37  2024  north carolina                  326984.00                  r    -6
+38  2024            ohio                 1692440.00                  r   -12
+39  2024        oklahoma                  130000.00                  r   -40
+40  2024          oregon                  610485.00                  r    10
+41  2024    pennsylvania                 4519655.00                  r    -3
+42  2024    rhode island                 1000000.00                  r    15
+43  2024           texas                15593566.80                  r    -8
+44  2024        virginia                 4398500.00                  r     5
+45  2024      washington                  397318.53                  r    12
+46  2024   west virginia                  153537.00                  r   -45
+47  2024       wisconsin                  214735.81                  r    -1
+Keys used: Year, State
+Num Rows Original: 25396
+Num Rows External Dataset: 351
+Num Rows final merge: 47

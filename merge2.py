@@ -1,0 +1,15 @@
+import pandas as pd
+trans = pd.read_csv('data/raw/Transactions.csv',low_memory = False)
+maj = pd.read_csv('data/raw/HORMaj.csv',low_memory = False)
+states = pd.read_csv('data/raw/state_election_leans_2000_2024.csv')
+tot = trans.groupby(['action_date_fiscal_year','recipient_state_name'])['federal_action_obligation'].sum().reset_index()
+tot = tot.rename(columns={"action_date_fiscal_year":"Year"})
+tot = tot.rename(columns={"recipient_state_name":"State"})
+congPoliticalLean = pd.merge(tot,maj,on = 'Year', how = 'inner')
+congPoliticalLean = congPoliticalLean.loc[congPoliticalLean['federal_action_obligation']>0]
+congPoliticalLean['State'] = congPoliticalLean['State'].str.lower().str.strip()
+states['State'] = states['State'].str.lower().str.strip()
+congPoliticalLean['Year'] = congPoliticalLean['Year'].astype(int)
+states['Year'] = states['Year'].astype(int)
+mergedByStates = pd.merge(congPoliticalLean,states,on = ['Year','State'],how = 'inner')
+print(mergedByStates)
